@@ -10,7 +10,7 @@
         type="text"
       >
         <template v-slot:append>
-          <v-icon @click="search()">mdi-magnify</v-icon>
+          <v-icon @click="search">mdi-magnify</v-icon>
         </template>
       </v-text-field>
     </v-col>
@@ -73,7 +73,6 @@
 <script>
 import FoodCard from "./FoodCard";
 import DetailsPanel from "./DetailsPanel";
-import sampleData from "../data/sampleData.json";
 
 export default {
   name: "Home",
@@ -93,17 +92,16 @@ export default {
     };
   },
   beforeMount() {
-    if (process.env.NODE_ENV === "development") this.foods = sampleData.hints;
-    else
-      this.getGroceries().then(() => {
-        window.onscroll = this.scroll;
-      });
+    this.getGroceries().then(() => {
+      window.onscroll = this.scroll;
+    });
   },
   methods: {
-    async getGroceries() {
+    async getGroceries(replace) {
       await this.loadNextPage().then(newGroceries => {
         var arr = this.foods.value ? [] : this.foods;
-        this.foods = arr.concat(newGroceries);
+        this.foods = replace ? newGroceries : arr.concat(newGroceries);
+        console.log(this.foods);
       });
     },
     openDetails(index) {
@@ -120,7 +118,8 @@ export default {
     },
     async search() {
       await this.changeNextUrl(this.searchValue);
-      await this.getGroceries();
+      await this.getGroceries(true);
+      this.searchValue = "";
     },
     scroll() {
       console.log("scrolll");
@@ -128,7 +127,7 @@ export default {
       let bottomOfWindow =
         window.innerHeight + window.pageYOffset >= document.body.scrollHeight;
       if (bottomOfWindow) {
-        this.getPokemons(this.next);
+        this.getGroceries();
       }
     }
   }

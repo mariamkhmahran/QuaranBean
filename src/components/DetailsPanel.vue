@@ -34,70 +34,79 @@
       </v-list-item-content>
 
       <v-list-item-avatar tile size="150" color="grey">
-        <v-img class="white--text align-end" height="200px" :src="image" />
+        <v-img class="white--text align-end" height="200px" :src="img" />
       </v-list-item-avatar>
     </v-list-item>
 
     <v-card-actions>
-      <v-row justify="start">
-        <v-col style="maxWidth: 22%">
-          <v-menu transition="slide-x-transition" bottom right>
-            <template v-slot:activator="{ on }">
-              <v-btn color="primary" dark v-on="on" margin-right="10px">
-                Donate
-                <v-icon right dark>mdi-account-heart</v-icon>
-              </v-btn>
-            </template>
+      <v-row justify="space-between" style="margin:0px">
+        <v-row justify="start" cols="6">
+          <v-col style="maxWidth: 22%">
+            <v-menu
+              style="margin-right: 20px"
+              transition="slide-x-transition"
+              bottom
+              right
+            >
+              <template v-slot:activator="{ on }">
+                <v-btn color="primary" dark v-on="on" margin-right="10px">
+                  Donate
+                  <v-icon right dark>mdi-account-heart</v-icon>
+                </v-btn>
+              </template>
 
-            <v-card class="c-scrollbar" height="300px">
-              <v-list>
-                <v-list-item
-                  v-for="i in 50"
-                  :key="i"
-                  @click="
-                    () => {
-                      donate(i);
-                    }
-                  "
-                >
-                  <v-list-item-title>{{ i }}</v-list-item-title>
-                </v-list-item>
-              </v-list>
-            </v-card>
-          </v-menu>
-        </v-col>
-        <v-col>
-          <v-menu transition="slide-x-transition" bottom right>
-            <template v-slot:activator="{ on }">
-              <v-btn color="secondary" dark v-on="on">
-                Add To Cart
-                <v-icon right dark>mdi-cart</v-icon>
-              </v-btn>
-            </template>
+              <v-card class="c-scrollbar" height="300px">
+                <v-list>
+                  <v-list-item
+                    v-for="i in 50"
+                    :key="i"
+                    @click="
+                      () => {
+                        donate(i);
+                      }
+                    "
+                  >
+                    <v-list-item-title>{{ i }}</v-list-item-title>
+                  </v-list-item>
+                </v-list>
+              </v-card>
+            </v-menu>
+          </v-col>
+          <v-col>
+            <v-menu transition="slide-x-transition" bottom right>
+              <template v-slot:activator="{ on }">
+                <v-btn color="secondary" dark v-on="on">
+                  Add To Cart
+                  <v-icon right dark>mdi-cart</v-icon>
+                </v-btn>
+              </template>
 
-            <v-card class="c-scrollbar" height="300px">
-              <v-list>
-                <v-list-item
-                  v-for="i in 100"
-                  :key="i"
-                  @click="
-                    () => {
-                      addToCart(i);
-                    }
-                  "
-                >
-                  <v-list-item-title>{{ i }}</v-list-item-title>
-                </v-list-item>
-              </v-list>
-            </v-card>
-          </v-menu>
-        </v-col>
+              <v-card class="c-scrollbar" height="300px">
+                <v-list>
+                  <v-list-item
+                    v-for="i in 100"
+                    :key="i"
+                    @click="
+                      () => {
+                        addToCart(i);
+                      }
+                    "
+                  >
+                    <v-list-item-title>{{ i }}</v-list-item-title>
+                  </v-list-item>
+                </v-list>
+              </v-card>
+            </v-menu>
+          </v-col>
+          <p class="price font-weight-bold">{{ price }} EGP</p>
+        </v-row>
       </v-row>
     </v-card-actions>
   </v-card>
 </template>
 
 <script>
+import defaultimg from "../assets/noImage.jpg";
 export default {
   props: ["food"],
   data: () => {
@@ -112,6 +121,14 @@ export default {
       donations: 0,
       donationIndex: 0
     };
+  },
+  computed: {
+    img() {
+      return this.food.image ? this.food.image : defaultimg;
+    },
+    price() {
+      return parseInt(this.food.nutrients.PROCNT * 2);
+    }
   },
   mounted() {
     this.label = this.food.label;
@@ -135,6 +152,7 @@ export default {
             found = true;
             this.donations = allDons[i].amount;
             this.donationIndex = i;
+            break;
           }
         }
         if (!found) {
@@ -163,7 +181,12 @@ export default {
     },
     addToCart(amnt, donation = false) {
       var cart = localStorage.getItem("myCart");
-      var addition = { food: this.food, amount: amnt, donation };
+      var addition = {
+        food: this.food,
+        amount: amnt,
+        donation,
+        donationAmount: 0
+      };
       if (cart) {
         var oldCart = JSON.parse(cart);
         var found = false;
@@ -197,5 +220,11 @@ export default {
 .c-scrollbar::-webkit-scrollbar-thumb {
   background-color: darkgrey;
   outline: 1px solid slategrey;
+}
+
+.price {
+  color: #757761;
+  font-size: 20px;
+  margin: 14px 40px;
 }
 </style>
