@@ -2,14 +2,14 @@ import axios from "axios";
 import Vue from "vue";
 import App from "./App.vue";
 import VueRouter from "vue-router";
-import HelloWorld from "./components/HelloWorld";
-// import DetailsView from "./components/DetailsView/DetailsView";
+import Home from "./components/Home";
+import vuetify from "./plugins/vuetify";
 
 Vue.use(VueRouter);
 
 const routes = [
-  { path: "/", component: HelloWorld }
-  // { path: "/pokemon/:name", component: DetailsView, props: true }
+  { path: "/", component: Home }
+  // { path: "/Groceries/:name", component: DetailsView, props: true }
 ];
 const router = new VueRouter({ routes });
 const cache = window.caches;
@@ -17,13 +17,14 @@ const cache = window.caches;
 Vue.mixin({
   data() {
     return {
-      next: "https://pokeapi.co/api/v2/pokemon/"
+      next:
+        "https://api.edamam.com/api/food-database/parser?ingr=potato&app_id=fe6004b8&app_key=358e1b6a09fbb3d5b8a9a30a713fc5e0"
     };
   },
   methods: {
     async checkCache(url) {
       return cache
-        .match(url, { cacheName: "pokedox", ignoreVary: true })
+        .match(url, { cacheName: "quaranbean", ignoreVary: true })
         .then(response => {
           if (response) {
             return response.json();
@@ -32,100 +33,54 @@ Vue.mixin({
           }
         });
     },
-    async getPokemon(name, withDescription = false) {
-      var pokemon = await this.getPokemonBaseData(name);
-      var extraInfo = withDescription
-        ? await this.getPokemonExtraInfo(name)
-        : null;
-
+    async getGrocery(ID) {
+      var Grocery = await this.getGroceryBaseData(ID);
       return {
-        ...pokemon,
-        ...extraInfo
+        ...Grocery
       };
     },
-    async getPokemonBaseData(name) {
-      var pokemon;
-      var id;
-      var spriteURL;
-      var types;
-      var abilities;
-      var height;
-      var weight;
-      var baseExp;
-      var stats;
-      var url = `https://pokeapi.co/api/v2/pokemon/${name}`;
-      await this.checkCache(url).then(async pokemon => {
-        id = pokemon.id;
-        spriteURL = pokemon.sprites.front_default;
-        types = pokemon.types.map(t => t.type.name);
-        abilities = pokemon.abilities.map(t => t.ability.name);
-        height = pokemon.height / 10;
-        weight = pokemon.weight / 10;
-        baseExp = pokemon.base_experience;
-        stats = pokemon.stats.map(s => ({
-          name: s.stat.name,
-          value: s.base_stat
-        }));
+    async getGroceryBaseData(ID) {
+      var label;
+      var nutrients;
+      var category;
+      var categoryLabel;
+      var image;
+      var url = `https://api.edamam.com/api/food-database/parser?ingr=${ID}&app_id=fe6004b8&app_key=358e1b6a09fbb3d5b8a9a30a713fc5e0`;
+      await this.checkCache(url).then(async Grocery => {
+        label = Grocery.label;
+        nutrients = Grocery.nutrients;
+        category = Grocery.category;
+        categoryLabel = Grocery.categoryLabel;
+        image = Grocery.image;
 
-        await caches.open("pokedox").then(cache => cache.add(url));
+        await caches.open("quaranbean").then(cache => cache.add(url));
       });
       return {
-        pokemon,
-        id,
-        spriteURL,
-        types,
-        abilities,
-        height,
-        weight,
-        baseExp,
-        stats
+        label,
+        nutrients,
+        category,
+        categoryLabel,
+        image
       };
-    },
-    async getPokemonExtraInfo(name) {
-      var desc;
-      var evolutionChain;
-      var url = `https://pokeapi.co/api/v2/pokemon-species/${name}`;
-      await this.checkCache(url).then(async res => {
-        desc = res.flavor_text_entries.find(t => {
-          return t.language.name === "en";
-        }).flavor_text;
-        evolutionChain = await this.getEvolutionChain(res.evolution_chain.url);
-        await caches.open("pokedox").then(cache => cache.add(url));
-      });
-      return { desc, evolutionChain };
-    },
-    async getEvolutionChain(url) {
-      var evolutions = [];
-      await this.checkCache(url).then(async res => {
-        var chain = res.chain;
-        while (chain != null) {
-          evolutions.push(chain.species);
-          chain = chain.evolves_to.length > 0 ? chain.evolves_to[0] : null;
-        }
-      });
-      var evolutionChain = evolutions.map(evol => {
-        var id = evol.url.split("/");
-        id = id[id.length - 2];
-        return { name: evol.name, id };
-      });
-      return evolutionChain;
     },
     async loadNextPage() {
-      var newPokemons;
+      var newGroceries;
       await this.checkCache(this.next).then(async res => {
-        newPokemons = res.results.map(pokemon => {
-          return pokemon.name;
-        });
+        newGroceries = res.hints;
 
-        await caches.open("pokedox").then(cache => cache.add(this.next));
-        this.next = res.next;
+        await caches.open("quaranbean").then(cache => cache.add(this.next));
+        this.next = res._links.next.href;
       });
-      return newPokemons;
+      return newGroceries;
+    },
+    async changeNextUrl(text) {
+      this.next = `https://api.edamam.com/api/food-database/parser?ingr=${text}&app_id=fe6004b8&app_key=358e1b6a09fbb3d5b8a9a30a713fc5e0`;
     }
   }
 });
 
 new Vue({
   router,
+  vuetify,
   render: h => h(App)
 }).$mount("#app");

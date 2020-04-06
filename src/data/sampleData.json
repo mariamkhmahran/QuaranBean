@@ -1,0 +1,1108 @@
+{
+  "hints": [
+    {
+      "food": {
+        "foodId": "food_abiw5baauresjmb6xpap2bg3otzu",
+        "label": "potato",
+        "nutrients": {
+          "ENERC_KCAL": 77,
+          "PROCNT": 2.02,
+          "FAT": 0.09,
+          "CHOCDF": 17.47,
+          "FIBTG": 2.2
+        },
+        "category": "Generic foods",
+        "categoryLabel": "food",
+        "image": "https://www.edamam.com/food-img/651/6512e82417bce15c2899630c1a2799df.jpg"
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_unit",
+          "label": "Whole",
+          "qualified": [
+            [
+              {
+                "uri": "http://www.edamam.com/ontologies/edamam.owl#Qualifier_large",
+                "label": "large"
+              }
+            ],
+            [
+              {
+                "uri": "http://www.edamam.com/ontologies/edamam.owl#Qualifier_small",
+                "label": "small"
+              }
+            ],
+            [
+              {
+                "uri": "http://www.edamam.com/ontologies/edamam.owl#Qualifier_tiny",
+                "label": "tiny"
+              }
+            ],
+            [
+              {
+                "uri": "http://www.edamam.com/ontologies/edamam.owl#Qualifier_medium",
+                "label": "medium"
+              }
+            ]
+          ]
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_potato",
+          "label": "Potato",
+          "qualified": [
+            [
+              {
+                "uri": "http://www.edamam.com/ontologies/edamam.owl#Qualifier_medium",
+                "label": "medium"
+              }
+            ],
+            [
+              {
+                "uri": "http://www.edamam.com/ontologies/edamam.owl#Qualifier_large",
+                "label": "large"
+              }
+            ],
+            [
+              {
+                "uri": "http://www.edamam.com/ontologies/edamam.owl#Qualifier_small",
+                "label": "small"
+              }
+            ]
+          ]
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_baby",
+          "label": "Baby"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_fingerling",
+          "label": "Fingerling",
+          "qualified": [
+            [
+              {
+                "uri": "http://www.edamam.com/ontologies/edamam.owl#Qualifier_small",
+                "label": "small"
+              }
+            ]
+          ]
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+          "label": "Cup",
+          "qualified": [
+            [
+              {
+                "uri": "http://www.edamam.com/ontologies/edamam.owl#Qualifier_diced",
+                "label": "diced"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_abiw5baauresjmb6xpap2bg3otzu",
+        "label": "yellow potato",
+        "nutrients": {
+          "ENERC_KCAL": 77,
+          "PROCNT": 2.02,
+          "FAT": 0.09,
+          "CHOCDF": 17.47,
+          "FIBTG": 2.2
+        },
+        "category": "Generic foods",
+        "categoryLabel": "food",
+        "image": "https://www.edamam.com/food-img/651/6512e82417bce15c2899630c1a2799df.jpg"
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_unit",
+          "label": "Whole",
+          "qualified": [
+            [
+              {
+                "uri": "http://www.edamam.com/ontologies/edamam.owl#Qualifier_large",
+                "label": "large"
+              }
+            ],
+            [
+              {
+                "uri": "http://www.edamam.com/ontologies/edamam.owl#Qualifier_small",
+                "label": "small"
+              }
+            ],
+            [
+              {
+                "uri": "http://www.edamam.com/ontologies/edamam.owl#Qualifier_tiny",
+                "label": "tiny"
+              }
+            ],
+            [
+              {
+                "uri": "http://www.edamam.com/ontologies/edamam.owl#Qualifier_medium",
+                "label": "medium"
+              }
+            ]
+          ]
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_potato",
+          "label": "Potato",
+          "qualified": [
+            [
+              {
+                "uri": "http://www.edamam.com/ontologies/edamam.owl#Qualifier_medium",
+                "label": "medium"
+              }
+            ],
+            [
+              {
+                "uri": "http://www.edamam.com/ontologies/edamam.owl#Qualifier_large",
+                "label": "large"
+              }
+            ],
+            [
+              {
+                "uri": "http://www.edamam.com/ontologies/edamam.owl#Qualifier_small",
+                "label": "small"
+              }
+            ]
+          ]
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_baby",
+          "label": "Baby"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_fingerling",
+          "label": "Fingerling",
+          "qualified": [
+            [
+              {
+                "uri": "http://www.edamam.com/ontologies/edamam.owl#Qualifier_small",
+                "label": "small"
+              }
+            ]
+          ]
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+          "label": "Cup",
+          "qualified": [
+            [
+              {
+                "uri": "http://www.edamam.com/ontologies/edamam.owl#Qualifier_diced",
+                "label": "diced"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_b8ltcrrb7fpzz2aslgi30bh8dzjj",
+        "label": "POTATOES",
+        "nutrients": {
+          "ENERC_KCAL": 74,
+          "PROCNT": 2.0299999713897705,
+          "FAT": 0,
+          "CHOCDF": 17.56999969482422,
+          "FIBTG": 1.399999976158142
+        },
+        "brand": "Sterman Masser Inc.",
+        "category": "Packaged foods",
+        "categoryLabel": "food",
+        "foodContentsLabel": "GRILLED POTATO PLANKS"
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_unit",
+          "label": "Whole"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram"
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_a0g6myhat7vngpbipsb8qbldg800",
+        "label": "bread, potato",
+        "nutrients": {
+          "ENERC_KCAL": 266,
+          "PROCNT": 12.5,
+          "FAT": 3.13,
+          "CHOCDF": 47.07,
+          "FIBTG": 6.3
+        },
+        "category": "Generic foods",
+        "categoryLabel": "food",
+        "image": "https://www.edamam.com/food-img/38c/38cf27d6def2fc4ad446195253a201e8.jpg"
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_unit",
+          "label": "Whole"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_slice",
+          "label": "Slice"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_roll",
+          "label": "Roll"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_bun",
+          "label": "Bun"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+          "label": "Cup"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_loaf",
+          "label": "Loaf"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_piece",
+          "label": "Piece"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_bread",
+          "label": "Bread"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram"
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_aesujjhbzo6zrgb8389mtac5jooe",
+        "label": "potato flour",
+        "nutrients": {
+          "ENERC_KCAL": 357,
+          "PROCNT": 6.9,
+          "FAT": 0.34,
+          "CHOCDF": 83.1,
+          "FIBTG": 5.9
+        },
+        "category": "Generic foods",
+        "categoryLabel": "food",
+        "image": "https://www.edamam.com/food-img/42f/42fbf9ea828e30db5085169d912d234a.jpeg"
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+          "label": "Cup"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_default"
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_am1ju9kbv6asobbqfn2mtbdmyon9",
+        "label": "Potato & Sweet Potato Torte",
+        "nutrients": {
+          "ENERC_KCAL": 90.11698556950995,
+          "PROCNT": 1.7512295158896665,
+          "FAT": 1.6172673001868472,
+          "CHOCDF": 17.965799289844835,
+          "FIBTG": 2.809522968481634
+        },
+        "category": "Generic meals",
+        "categoryLabel": "meal",
+        "foodContentsLabel": "extra-virgin olive oil; leeks; fresh thyme; salt; pepper; sweet potatoes; Yukon Gold"
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_unit",
+          "label": "Whole"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram"
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_a31jg8abv77anbawvv5v2bna6kde",
+        "label": "One Potato Two Potato Potato Chips",
+        "nutrients": {
+          "ENERC_KCAL": 500,
+          "PROCNT": 7.142857142857143,
+          "FAT": 25,
+          "CHOCDF": 64.28571428571429,
+          "FIBTG": 3.5714285714285716
+        },
+        "brand": "One Potato Two Potato",
+        "category": "Packaged foods",
+        "categoryLabel": "food",
+        "foodContentsLabel": "POTATOES EXPELLER PRESSED SUNFLOWER OIL; SUGAR DEXTROSE; SALT ONION POWDER; MALTODEXTRIN; GARLIC POWDER; CITRIC ACID; NATURAL FLAVORS.",
+        "image": "https://www.edamam.com/food-img/963/9633e24decdc42ed674fdc787623b492.png"
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_package",
+          "label": "Package"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram"
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_bw3fgwxaa8i45painpdlab4pbldy",
+        "label": "Potatoes  Mashed Potatoes  Plain",
+        "nutrients": {
+          "ENERC_KCAL": 114.28571428571429,
+          "PROCNT": 2.142857142857143,
+          "FAT": 5.714285714285714,
+          "CHOCDF": 14.285714285714286
+        },
+        "brand": "USDA",
+        "category": "Packaged foods",
+        "categoryLabel": "food",
+        "foodContentsLabel": "Potato Flakes Sodium Bisulfite; Bha And Citric Acid Added To Protect Color And Flavor ); Contains 2% Or Less Of Each Of The Following : Monoglycerides; Partially Hydrogenated Cottonseed Oil; Natural Flavor; Sodium Acid Pyrophosphate; Butteroil."
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_package",
+          "label": "Package"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram"
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_ax144g3bwbtpy0andi092bvuvulo",
+        "label": "potato pancakes",
+        "nutrients": {
+          "ENERC_KCAL": 268,
+          "PROCNT": 6.08,
+          "FAT": 14.76,
+          "CHOCDF": 27.81,
+          "FIBTG": 3.3
+        },
+        "category": "Generic foods",
+        "categoryLabel": "food",
+        "image": "https://www.edamam.com/food-img/56e/56eaa1d3fa0e777fc6bc855aac5b4bf5.jpeg"
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_unit",
+          "label": "Whole",
+          "qualified": [
+            [
+              {
+                "uri": "http://www.edamam.com/ontologies/edamam.owl#Qualifier_small",
+                "label": "small"
+              }
+            ],
+            [
+              {
+                "uri": "http://www.edamam.com/ontologies/edamam.owl#Qualifier_medium",
+                "label": "medium"
+              }
+            ]
+          ]
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_cake",
+          "label": "Cake"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pancake",
+          "label": "Pancake"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram"
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_bvyawtfa3x7ok6a3mxtz1a4ei25d",
+        "label": "KASIA'S, POTATO PANCAKES, POTATO",
+        "nutrients": {
+          "ENERC_KCAL": 158,
+          "PROCNT": 3.509999990463257,
+          "FAT": 7.019999980926514,
+          "CHOCDF": 26.31999969482422,
+          "FIBTG": 1.7999999523162842
+        },
+        "brand": "Kasia's",
+        "category": "Packaged foods",
+        "categoryLabel": "food",
+        "foodContentsLabel": "FRESH POTATOES; LIQUID WHOLE EGGS; EGG WHITES; POTATO STARCH; ONIONS; SOYBEAN OIL; ENRICHED WHEAT FLOUR (WHEAT FLOUR; MALTED BARLEY FLOUR; NIACIN; IRON; THIAMIN MONONITRATE; RIBOFLAVIN; FOLIC ACID); VEGETABLE SEASONING (SALT; SUGAR; DEHYDRATED VEGETABLES (TO INCLUDE PARSLEY; CELERY; GARLIC AND ONION); SPICES AND HERBS); SALT; POTATO FLAKES (DEHYDRATED POTATOES (POTATOES; MONO AND DIGLYCERIDES; SODIUM ACID PYROPHOSPHATE AND CITRIC ACID TO PRESERVE)); PEPPER."
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pancake",
+          "label": "Pancake"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_package",
+          "label": "Package"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram"
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_amv7f0dbuf92j6b8asxccarq4ps9",
+        "label": "POTATOES",
+        "nutrients": {
+          "ENERC_KCAL": 357,
+          "PROCNT": 7.139999866485596,
+          "FAT": 0,
+          "CHOCDF": 78.56999969482422,
+          "FIBTG": 3.5999999046325684
+        },
+        "brand": "Basic American Foods, Inc.",
+        "category": "Packaged foods",
+        "categoryLabel": "food",
+        "foodContentsLabel": "POTATO (DRY); CORN STARCH; MODIFIED CORN STARCH; SALT; WHEY; CONTAINS 2% OR LESS OF: NATURAL CHEDDAR CHEESE FLAVOR; NATURAL BLUE CHEESE FLAVOR; NATURAL PARMESAN CHEESE FLAVOR; ONION POWDER; GARLIC POWDER; SPICE; NATURAL FLAVOR; PARSLEY; MALTODEXTRIN; DISODIUM PHOSPHATE; CORN SYRUP SOLIDS; DISODIUM INOSINATE; DISODIUM GUANYLATE; SOY LECITHIN; MONOGLYCERIDES; FD&C YELLOW 5; FD&C YELLOW 6; FRESHNESS PRESERVED WITH: SODIUM BISULFITE; CITRIC ACID; AND BHA.",
+        "image": "https://www.edamam.com/food-img/990/9904ba0a16326da8b344448fa7ffe3ca.jpg"
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_package",
+          "label": "Package"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+          "label": "Cup"
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_a5xio97bhed1ipa8xg6pcaj2352m",
+        "label": "POTATO",
+        "nutrients": {
+          "ENERC_KCAL": 166.66666666666669,
+          "PROCNT": 5.833333333333334,
+          "FAT": 1.6666666666666667,
+          "CHOCDF": 32.5,
+          "FIBTG": 1.6666666666666667
+        },
+        "brand": "Jackson County Dumplings",
+        "category": "Packaged foods",
+        "categoryLabel": "food",
+        "foodContentsLabel": "Dough : Enriched Wheat Flour ( Enriched With Nutrients : Thiamine; Riboflavin; Niacin; Reduced Iron; Folic Acid ); Water; Canola Oil; Baking Powder; Salt; Skim Milk Powder; Soy Lecithin. Filling : Potatoes; Water; Bacon ( Pork; Water; Salt; Sodium Phosphate; Sodium Erythorbate; Sodium Nitrite; Smoke. May Contain Sugar; Brown Sugar; Potassium Chloride; Spices; Flavor ); Smoke Ham Flavor ( Autolyzed Yeast Extract; Salt; Milk; Soya ); Salt; Sugar; Re - Hydrated Onion; Onion Powder; Pepper."
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pierogi",
+          "label": "Pierogi"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram"
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_bwxvhmia9vv887bfro8z4bo7gb1z",
+        "label": "POTATOES",
+        "nutrients": {
+          "ENERC_KCAL": 79,
+          "PROCNT": 2.630000114440918,
+          "FAT": 0,
+          "CHOCDF": 17.540000915527344,
+          "FIBTG": 1.7999999523162842
+        },
+        "brand": "The Little Potato Company",
+        "category": "Packaged foods",
+        "categoryLabel": "food",
+        "foodContentsLabel": "POTATOES. SEASONING PACK: MALTODEXTRIN; NONFAT MILK; PARMESAN AND ROMANO CHEESES (CULTURED MILK; SALT; ENZYMES; CALCIUM CHLORIDE; CELLULOSE; SORBIC ACID TO PROTECT FLAVOR); SALT; CHEDDAR CHEESE (CULTURED MILK; SALT; ENZYMES); WHEY; BUTTERMILK; GARLIC POWDER; ONION POWDER; LACTIC ACID; CALCIUM LACTATE; SPICE; DISODIUM PHOSPHATE; OLEORESIN PAPRIKA AND TURMERIC FOR COLOR; SILICON DIOXIDE (ANTI CAKING AGENT)."
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_package",
+          "label": "Package"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram"
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_b1sniyfapljgjkaqv8zt2ah9ibgc",
+        "label": "POTATOES",
+        "nutrients": {
+          "ENERC_KCAL": 74,
+          "PROCNT": 2.0299999713897705,
+          "FAT": 0,
+          "CHOCDF": 17.56999969482422,
+          "FIBTG": 1.399999976158142
+        },
+        "brand": "Weis Markets, Inc.",
+        "category": "Packaged foods",
+        "categoryLabel": "food",
+        "foodContentsLabel": "POTATOES. "
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram"
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_bo6udlva41xk6kautzcyxb6njveb",
+        "label": "POTATOES",
+        "nutrients": {
+          "ENERC_KCAL": 74,
+          "PROCNT": 2.700000047683716,
+          "FAT": 0,
+          "CHOCDF": 17.56999969482422,
+          "FIBTG": 1.399999976158142
+        },
+        "brand": "Weis Markets, Inc.",
+        "category": "Packaged foods",
+        "categoryLabel": "food",
+        "foodContentsLabel": "POTATOES. "
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram"
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_a51p71qacmehhla6so09uayzbox4",
+        "label": "Potatoes",
+        "nutrients": {
+          "ENERC_KCAL": 74.32432432432432,
+          "PROCNT": 2.027027027027027,
+          "FAT": 0,
+          "CHOCDF": 17.56756756756757,
+          "FIBTG": 1.418918854481465
+        },
+        "brand": "Kitchen Farms Inc.",
+        "category": "Packaged foods",
+        "categoryLabel": "food",
+        "foodContentsLabel": "Potatoes"
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_unit",
+          "label": "Whole"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram"
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_bkqv1ola4w5860bf5r8u2aiqpd89",
+        "label": "POTATOES",
+        "nutrients": {
+          "ENERC_KCAL": 90.9090909090909,
+          "PROCNT": 2.727272727272727,
+          "FAT": 0,
+          "CHOCDF": 20.90909090909091,
+          "FIBTG": 1.8181818181818181
+        },
+        "brand": "Butter Babies",
+        "category": "Packaged foods",
+        "categoryLabel": "food",
+        "foodContentsLabel": "Potatoes"
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+          "label": "Cup"
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_ao6dx36ayzwu03baxa1gvbo8y32p",
+        "label": "POTATOES",
+        "nutrients": {
+          "ENERC_KCAL": 352,
+          "PROCNT": 7.409999847412109,
+          "FAT": 1.850000023841858,
+          "CHOCDF": 74.06999969482422,
+          "FIBTG": 3.700000047683716
+        },
+        "brand": "Spartan",
+        "category": "Packaged foods",
+        "categoryLabel": "food",
+        "foodContentsLabel": "POTATOES*; WHEY (FROM MILK); SALT; CORN STARCH; ENRICHED BLEACHED WHEAT FLOUR (WHEAT FLOUR; NIACIN; REDUCED IRON; THIAMIN MONONITRATE; RIBOFLAVIN; FOLIC ACID); CHEDDAR CHEESE (PASTEURIZED MILK; CHEESE CULTURES; SALT; ENZYMES); PARTIALLY HYDROGENATED SOYBEAN AND COTTONSEED OILS; ONIONS*; WHEY PROTEIN CONCENTRATE (FROM MILK); GARLIC*; MONOCALCIUM PHOSPHATE; SODIUM CASEINATE (FROM MILK); CITRIC ACID; MONO- AND DIGLYCERIDES; DISODIUM PHOSPHATE; NONFAT DRY MILK; PAPRIKA EXTRACT; (COLOR); ANNATTO EXTRACT (COLOR); MODIFIED WHEAT STARCH; YELLOW 5; AND YELLOW 6. (FRESHNESS PROTECTED BY SODIUM BISULFITE).",
+        "image": "https://www.edamam.com/food-img/ad3/ad3daf6044a6142acac524eea3f8404e.jpg"
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_package",
+          "label": "Package"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+          "label": "Cup"
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_bykdintbgx1y7saq1ejtma8valsq",
+        "label": "POTATOES",
+        "nutrients": {
+          "ENERC_KCAL": 61,
+          "PROCNT": 1.75,
+          "FAT": 0,
+          "CHOCDF": 14.039999961853027,
+          "FIBTG": 1.7999999523162842
+        },
+        "brand": "The Little Potato Company",
+        "category": "Packaged foods",
+        "categoryLabel": "food",
+        "foodContentsLabel": "POTATOES. SEASONING PACK: DEHYDRATED ONION; CANE SUGAR; SEA SALT; TOMATO POWDER; SPICE; GARLIC POWDER; PAPRIKA; ONION POWDER; CANOLA OIL†; SALT."
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_package",
+          "label": "Package"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram"
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_apn3csgb2yroloa0tyc10b8ul52t",
+        "label": "Potatoes",
+        "nutrients": {
+          "ENERC_KCAL": 74.32432432432432,
+          "PROCNT": 2.027027027027027,
+          "FAT": 0,
+          "CHOCDF": 17.56756756756757,
+          "FIBTG": 1.418918854481465
+        },
+        "brand": "Albert Bartlett Usa Inc.",
+        "category": "Packaged foods",
+        "categoryLabel": "food",
+        "foodContentsLabel": "Potatoes"
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram"
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_a0f6a50aw1rflnbjoguq5b6mnn8c",
+        "label": "Potatoes",
+        "nutrients": {
+          "ENERC_KCAL": 75.17763140504326,
+          "PROCNT": 2.0502990383193618,
+          "FAT": 0,
+          "CHOCDF": 17.769258332101135,
+          "FIBTG": 1.435209261646302
+        },
+        "brand": "Fresh Produce",
+        "category": "Packaged foods",
+        "categoryLabel": "food",
+        "foodContentsLabel": "Potatoes."
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_unit",
+          "label": "Whole"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_package",
+          "label": "Package"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound"
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram"
+        }
+      ]
+    }
+  ]
+}

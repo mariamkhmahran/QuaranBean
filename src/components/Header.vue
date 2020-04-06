@@ -1,11 +1,22 @@
 <template>
-  <div class="mainHeader">
-    <img alt="Pokedox logo" src="../assets/logo.png" id="logo" @click="redirectHome" />
-  </div>
+  <v-app-bar app color="header">
+    <div class="d-flex align-center">
+      <span><b>QUARANBEAN</b></span>
+    </div>
+
+    <v-spacer></v-spacer>
+
+    <v-btn href="/cart" text>
+      <v-badge color="red" :content="cart" :value="cart">
+        <v-icon height="20px">mdi-cart-outline</v-icon>
+      </v-badge>
+    </v-btn>
+  </v-app-bar>
 </template>
 
 <script>
 export default {
+  props: ["cart"],
   methods: {
     redirectHome() {
       this.$router.replace({ path: `/` });
@@ -13,20 +24,3 @@ export default {
   }
 };
 </script>
-
-<style>
-.mainHeader {
-  width: 100%;
-  height: 65px;
-  background-color: black;
-  box-shadow: 0px 5px 15px rgba(128, 128, 128, 0.589);
-  position: fixed;
-  z-index: 10;
-}
-
-.mainHeader #logo {
-  height: 45px;
-  margin: 10px 40px;
-  cursor: pointer;
-}
-</style>
